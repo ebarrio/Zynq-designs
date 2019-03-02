@@ -1,1 +1,1 @@
-![Screenshot](Zedver/Zedver.jpg)
+![Screenshot](Zedver.jpg)
