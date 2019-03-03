@@ -1,7 +1,7 @@
 /*
  * main.c: simple BRAM test application
  * This application test synthesize BRAM at ARTIX-7 FPGA integrated on ZedBoard
- Author: Eladio Barrio Querol
+ * Author: Eladio Barrio Querol
  */
 
 #include <stdio.h>
