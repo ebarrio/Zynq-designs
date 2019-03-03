@@ -15,14 +15,14 @@
 int main()
 {
 	//unsigned short data_bram [BYTES_BRAM/BYTES_DATA];
-    init_platform(); //Enable caches and uart
-    unsigned int bytesBRAM = BYTES_BRAM;
+    	init_platform(); //Enable caches and uart
+    	unsigned int bytesBRAM = BYTES_BRAM;
 	for (int i = 0 ; i < (XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR - XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR) ; i+=2){
-	Xil_Out16(XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR + i, i); //Write in BRAM test data
-	xil_printf("%x\n\r", Xil_In16(XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR + i));
+		Xil_Out16(XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR + i, i); //Write in BRAM test data
+		xil_printf("%x\n\r", Xil_In16(XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR + i)); //Print BRAM test data
 	}
 	xil_printf("Bytes BRAM: %u\n\r", bytesBRAM);
-    cleanup_platform();
-    return 0;
+    	cleanup_platform();
+    	return 0;
 }
 
