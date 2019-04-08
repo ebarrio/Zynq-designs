@@ -1,0 +1,2 @@
+- 2 Reg write/read (BASE + 0, BASE +1)
+- 2 Reg read hardware fixed value (BASE + 2, BASE +3)
