@@ -1,0 +1,4 @@
+v 3
+file . "uart_tx.vhd" "20200501182344.000" "20200501202801.914":
+  entity uart_tx at 1( 0) + 0 on 11;
+  architecture behavioral of uart_tx at 12( 247) + 0 on 12;
