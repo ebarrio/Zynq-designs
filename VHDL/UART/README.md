@@ -1,3 +1,3 @@
-![Screenshot](Zedboard.jpeg)
-![Screenshot](Zedboard.jpeg)
+![Screenshot](out.png)
+![Screenshot](block_design.png)
 
