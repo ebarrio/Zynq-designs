@@ -1,3 +1,3 @@
 ![Screenshot](out.PNG)
-![Screenshot](block_design.png)
+![Screenshot](block_design.PNG)
 
